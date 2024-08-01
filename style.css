@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: black;    
+}
+.display{
+    width: 50vw;
+    height: 100vh;
+    border: 2px solid black;
+    border-radius: 2px;
+    background-color: tan;
+}
+h1{
+    text-align: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 200px 150px 110px ;
+    column-gap: 30px;
+    row-gap: 10px;
+    margin-top: 20px;
+    padding-left: 60px;
+}
+.grid input{
+    font-size: large;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+#add{
+    background-color: green;
+    color: white;
+    border-radius: 2px;
+}
+.todo-items button{
+    background-color: red;
+    color: white;
+    height: 25px;
+    border-radius: 2px;
+}
